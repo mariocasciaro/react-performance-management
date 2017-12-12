@@ -21,22 +21,9 @@ npm run prod
 #### for Deploy (using surge)
 
 ```
-npm install -g surge
 npm run build
-surge dist <custom-url>.surge.sh
-(You may have to create an account)
 
-```
 
-#### Other Commands
-
-```
-npm start
-npm test
-npm run build
-npm run test:verbose
-npm run lint
-npm run lint:fix
 ```
 
 ## Setup Instructions
@@ -73,31 +60,9 @@ You can now start updating files in your src to begin working on your own projec
 ```
 - src
   - assets
-    - imgs
-    - icons
   - components
-    - components
-    - elements
-    - layouts
-    - pages
-    - sections
-    - structures
   - store
-    - actions
-    - reducers
-  - styles
-- server
-  - config
-  - routes
-- test
-  - src
-  - server
-- scripts
 ```
-
-Component Heirarchy:
-
-Layouts > Pages > Sections > Structures > Components > Elements
 
 ## Technologies
 
@@ -111,18 +76,8 @@ Layouts > Pages > Sections > Structures > Components > Elements
 
 [Webpack](https://webpack.github.io/) - Code Packager for React
 
-[Express](http://expressjs.com/) - Node Framework
-
 [Bulma](http://bulma.io/) - CSS Framework
-
-[Material-UI](http://material-ui.com/) - React Element Library
 
 [FontAwesome](http://fontawesome.io/) - Icons
 
-[Ramda](http://ramdajs.com/) - Functional Library
-
 [ESLint](http://eslint.org/) - Code Linter
-
-[Code](https://github.com/hapijs/code) / [Lab](https://github.com/hapijs/lab) - JS Testing Framework
-
-[Enzyme](https://github.com/airbnb/enzyme) - React View Testing
