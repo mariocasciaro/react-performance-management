@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-react",
+  "name": "performance-management",
   "version": "1.0.0",
-  "description": "React Boilerplate",
+  "description": "Performance Management",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --progress --config webpack.prod.config.js",
     "dev": "webpack-dev-server --progress --hot --config webpack.dev.config.js",
