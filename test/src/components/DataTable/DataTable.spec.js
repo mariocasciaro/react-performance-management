@@ -4,7 +4,7 @@ import { expect } from 'code';
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-import Button from '../../../../src/components/elements/Button';
+import Button from '../../../../src/components/DataTable/DataTable';
 
 Enzyme.configure({ adapter: new Adapter() });
 
@@ -13,10 +13,10 @@ const { experiment, test } = lab;
 
 exports.lab = lab;
 
-const wrapper = shallow(<Button />);
+const wrapper = shallow(<DataTable />);
 
-experiment('<Button />', () => {
-  test('Renders as a <button> element', () => {
-    expect(wrapper.type()).to.equal('button');
+experiment('<DataTable />', () => {
+  test('Renders as a <DataTable> element', () => {
+    expect(wrapper.type()).to.equal('DataTable');
   });
 });
