@@ -6,11 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack -p --progress --config webpack.prod.config.js",
     "dev": "webpack-dev-server --progress --hot --config webpack.dev.config.js",
-    "lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint-fix",
-    "prod": "npm run build && npm run start",
-    "test": "./scripts/test",
-    "test:verbose": "./scripts/test-verbose"
+    "prod": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
@@ -34,7 +30,6 @@
     "material-ui",
     "fontawesome",
     "ramda",
-    "eslint",
     "code",
     "lab",
     "enzyme"
