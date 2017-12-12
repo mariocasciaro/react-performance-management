@@ -5,7 +5,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack -p --progress --config webpack.prod.config.js",
     "dev": "webpack-dev-server --progress --hot --config webpack.dev.config.js",
-    "prod": "npm run build && npm run start"
+    "prod": "npm run build"
   },
   "license": "MIT",
   "dependencies": {
