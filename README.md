@@ -1,30 +1,17 @@
 # React Boilerplate
-
 You can try out this project
 
-## Quick Start
-
 #### for Development
-
-```
-brew install libpng (needed for .jpg images)
 npm install
 npm run dev
-```
-
+``
 #### for Production
-
 ```
 npm run prod
-```
 
 #### for Deploy (using surge)
-
 ```
 npm run build
-
-
-```
 
 ## Setup Instructions
 
@@ -56,16 +43,21 @@ You can now start updating files in your src to begin working on your own projec
 * Add Webpack 3
 
 ## Code Structure
-
 ```
 - src
   - assets
   - components
+  - containers
+  - modules
+  - pages
+  - routes
   - store
+  - stylesheets
+- index.js
+- index.html
+
 ```
-
 ## Technologies
-
 [React](https://facebook.github.io/react/) - View Library
 
 [React-Router](https://reacttraining.com/react-router/) - Routing Library for React
@@ -75,9 +67,5 @@ You can now start updating files in your src to begin working on your own projec
 [Redux-Persist](https://github.com/rt2zz/redux-persist) - Persistent State
 
 [Webpack](https://webpack.github.io/) - Code Packager for React
-
-[Bulma](http://bulma.io/) - CSS Framework
-
-[FontAwesome](http://fontawesome.io/) - Icons
 
 [ESLint](http://eslint.org/) - Code Linter
